@@ -32,7 +32,11 @@ M.base46 = {
 -- M.nvdash = { load_on_startup = true }
 M.ui = {
   tabufline = {
-    auto_hide = true,
+    enabled = false,
+  },
+  statusline = {
+    enabled = true,
+    style = "default",
   },
 }
 
